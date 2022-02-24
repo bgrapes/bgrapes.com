@@ -26,6 +26,11 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="Resume_BrianGrapes.pdf" className="nav-link">
+                Resume
+              </a>
+            </li>
+            <li>
               <a href="#projects">
                 <Button className="no-margin-bottom">View Work</Button>
               </a>

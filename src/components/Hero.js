@@ -1,5 +1,6 @@
 import React from "react"
-import { Section, Intro, Photo } from "./Hero.style"
+import { Button } from "./Global.style"
+import { Section, Intro, Cta, Photo } from "./Hero.style"
 import ProfilePhoto from "../images/profile_photo_square.jpg"
 
 const Hero = () => {
@@ -15,6 +16,11 @@ const Hero = () => {
               using front end technologies with marketing experience to maximize
               conversions. I love CSS and bringing beautiful designs to life.
             </Intro>
+            <Cta>
+              <a href="Resume_BrianGrapes.pdf">
+                <Button className="no-margin-bottom">Download Resume</Button>
+              </a>
+            </Cta>
           </div>
           <div className="flex-small one-third">
             <Photo

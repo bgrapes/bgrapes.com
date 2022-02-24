@@ -18,6 +18,17 @@ export const Intro = styled(P)`
   }
 `
 
+export const Cta = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  @media (min-width: 600px) {
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+`
+
 export const Photo = styled.img`
   aspect-ratio: attr(width) / attr(height);
   border-radius: 4px;
