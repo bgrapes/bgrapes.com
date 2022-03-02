@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { P } from "./Global.style"
 
 export const Section = styled.section`
-  background: ${({ theme }) => theme.lightGray};
+  background: ${({ theme }) => theme.heroBgColor};
 `
 
 export const Intro = styled(P)`

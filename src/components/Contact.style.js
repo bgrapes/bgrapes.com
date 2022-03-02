@@ -1,5 +1,5 @@
 import styled from "styled-components"
 
 export const Section = styled.section`
-  background-color: ${({ theme }) => theme.white};
+  background-color: ${({ theme }) => theme.bodyBgColor};
 `

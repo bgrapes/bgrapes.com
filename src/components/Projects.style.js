@@ -2,11 +2,11 @@ import styled from "styled-components"
 import { H2 } from "./Global.style"
 
 export const Section = styled.section`
-  background: ${({ theme }) => theme.blueGradient};
+  background: ${({ theme }) => theme.gradientBgColor};
 `
 
 export const StyledH2 = styled(H2)`
-  color: ${({ theme }) => theme.lightGray};
+  color: ${({ theme }) => theme.gradientHeadingColor};
 `
 
 export const Grid = styled.div`
@@ -20,7 +20,7 @@ export const Grid = styled.div`
 `
 
 export const Card = styled.div`
-  background-color: ${({ theme }) => theme.white};
+  background-color: ${({ theme }) => theme.cardBgColor};
   box-shadow: ${({ theme }) => theme.boxShadow};
   border-radius: 4px;
 `
@@ -45,7 +45,7 @@ export const Tags = styled.div`
 export const Tag = styled.div`
   cursor: default;
   display: inline-block;
-  background-color: ${({ theme }) => theme.lightGray};
+  background-color: ${({ theme }) => theme.tagBgColor};
   border-radius: 4px;
   font-size: 14px;
   padding: 0.2rem 0.7rem;

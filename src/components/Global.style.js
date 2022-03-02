@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background-color: ${({ theme }) => theme.lightGray} !important;
+    background-color: ${({ theme }) => theme.bodyBgColor} !important;
     margin: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 
@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const HeaderStyles = css`
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.bodyHeadingColor};
   font-family: inherit;
   font-weight: 600;
   margin: 0 !important;
@@ -49,13 +49,13 @@ export const H3 = styled.h2`
 `
 
 export const P = styled.p`
-  color: ${({ theme }) => theme.charcoal};
+  color: ${({ theme }) => theme.bodyTextColor};
   font-size: 18px;
   font-weight: 300;
   line-height: 2;
 
   strong {
-    color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.bodyTextAccentColor};
     font-weight: 600;
   }
 `

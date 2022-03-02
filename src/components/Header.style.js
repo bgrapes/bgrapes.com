@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Section = styled.header`
+  background: ${({ theme }) => theme.headerBgColor};
   min-height: 42px;
   overflow: hidden;
 
@@ -17,13 +18,13 @@ export const Logo = styled.div`
 export const Navigation = styled.div`
   a.nav-link {
     border-bottom: 1px solid transparent;
-    color: ${({ theme }) => theme.charcoal};
+    color: ${({ theme }) => theme.bodyTextColor};
     font-size: 18px;
 
     &:hover,
     &:active {
-      border-bottom: 1px solid ${({ theme }) => theme.primary};
-      color: ${({ theme }) => theme.primary};
+      border-bottom: 1px solid ${({ theme }) => theme.bodyTextAccentColor};
+      color: ${({ theme }) => theme.bodyTextAccentColor};
       text-decoration: none;
     }
   }

@@ -10,15 +10,25 @@ const colors = {
 }
 
 const theme = {
-  blueGradient: `linear-gradient(${colors.blue}, ${colors.blueLight})`,
+  bodyBgColor: colors.white,
+  bodyTextAccentColor: colors.blue,
+  bodyTextColor: colors.charcoal,
+  bodyHeadingColor: colors.blue,
   boxShadow: `0 50px 40px -20px rgb(0 0 0 / 15%)`,
-  charcoal: colors.charcoal,
-  primary: colors.blue,
-  secondary: colors.purple,
-  lightGray: colors.lightGray,
-  lighterGray: colors.lighterGray,
-  mediumGray: colors.mediumGray,
-  white: colors.white,
+  cardBgColor: colors.white,
+  cardTextColor: colors.charcoal,
+  footerBgColor: colors.charcoal,
+  footerTextColor: colors.lightGray,
+  gradientBgColor: `linear-gradient(${colors.blue}, ${colors.blueLight})`,
+  gradientHeadingColor: colors.lightGray,
+  headerBgColor: colors.lightGray,
+  heroBgColor: colors.lightGray,
+  tagBgColor: colors.lightGray,
+  tagTextColor: colors.charcoal,
+  buttonBgColor: colors.blue,
+  buttonTextColor: colors.white,
+  mutedButtonTextColor: colors.charcoal,
+  mutedButtonBorderColor: colors.charcoal,
 }
 
 export default theme
