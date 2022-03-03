@@ -1,4 +1,7 @@
 import styled from "styled-components"
+import { IconStyles } from "./Global.style"
+import LogoIconSvg from "../icons/icon_code.svg"
+import MenuIconSvg from "../icons/icon_menu.svg"
 
 export const Section = styled.header`
   background: ${({ theme }) => theme.headerBgColor};
@@ -12,7 +15,16 @@ export const Section = styled.header`
 
 export const Logo = styled.div`
   display: flex;
+  align-items: center;
   gap: 12px;
+`
+
+export const LogoIcon = styled(LogoIconSvg)`
+  ${IconStyles}
+`
+
+export const MenuIcon = styled(MenuIconSvg)`
+  ${IconStyles}
 `
 
 export const Navigation = styled.div`

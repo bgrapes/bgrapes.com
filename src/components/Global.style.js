@@ -60,6 +60,11 @@ export const P = styled.p`
   }
 `
 
+export const IconStyles = css`
+  filter: ${({ theme }) => theme.iconColor};
+  height: 30px;
+`
+
 export const Button = styled.button`
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 

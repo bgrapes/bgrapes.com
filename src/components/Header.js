@@ -1,8 +1,6 @@
 import React from "react"
 import { H1, Button } from "./Global.style"
-import { Section, Logo, Navigation } from "./Header.style"
-import LogoIcon from "../images/icon_code.svg"
-import MenuIcon from "../images/icon_menu.svg"
+import { Section, Logo, LogoIcon, MenuIcon, Navigation } from "./Header.style"
 
 const Header = () => {
   return (
@@ -11,13 +9,14 @@ const Header = () => {
         <Navigation className="flex-row align-center space-between container">
           <a href="/">
             <Logo>
-              <img src={LogoIcon} alt="" />
+              <LogoIcon />
               <H1>Brian Grapes</H1>
             </Logo>
           </a>
           <input id="nav" type="checkbox" />
           <label htmlFor="nav">
-            <img src={MenuIcon} alt="Toggle menu" />
+            <span className="screen-reader-text">Menu</span>
+            <MenuIcon />
           </label>
           <nav>
             <ul>
