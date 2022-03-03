@@ -7,7 +7,7 @@ import MenuIcon from "../images/icon_menu.svg"
 const Header = () => {
   return (
     <Section className="padding-top" id="about">
-      <div class="container">
+      <div className="container">
         <Navigation className="flex-row align-center space-between container">
           <a href="/">
             <Logo>
