@@ -7,29 +7,30 @@ const Contact = () => {
     <Section className="content-section" id="contact">
       <div className="small-container">
         <H2>Contact me</H2>
-        <form action="https://submit-form.com/U5lpInL6">
-          <label htmlFor="name">Name</label>
+        <form action="https://submit-form.com/U5lpInL6" className="margin-top">
           <input
+            aria-label="name"
             type="text"
             id="name"
             name="name"
             placeholder="Name"
             required
           />
-          <label htmlFor="email">Email</label>
           <input
+            aria-label="email"
             type="email"
             id="email"
             name="email"
             placeholder="Email"
             required
           />
-          <label htmlFor="message">Message</label>
           <textarea
+            aria-label="message"
             id="message"
             name="message"
             placeholder="Message"
             required
+            className="margin-bottom"
           ></textarea>
           <Button type="submit">Send</Button>
         </form>
