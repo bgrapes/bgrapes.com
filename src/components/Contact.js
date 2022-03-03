@@ -1,6 +1,6 @@
 import React from "react"
 import { H2, Button } from "./Global.style"
-import { Section } from "./Contact.style"
+import { Section, Input, Textarea } from "./Contact.style"
 
 const Contact = () => {
   return (
@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="small-container">
         <H2>Contact me</H2>
         <form action="https://submit-form.com/U5lpInL6" className="margin-top">
-          <input
+          <Input
             aria-label="name"
             type="text"
             id="name"
@@ -16,7 +16,7 @@ const Contact = () => {
             placeholder="Name"
             required
           />
-          <input
+          <Input
             aria-label="email"
             type="email"
             id="email"
@@ -24,14 +24,14 @@ const Contact = () => {
             placeholder="Email"
             required
           />
-          <textarea
+          <Textarea
             aria-label="message"
             id="message"
             name="message"
             placeholder="Message"
             required
             className="margin-bottom"
-          ></textarea>
+          ></Textarea>
           <Button type="submit">Send</Button>
         </form>
       </div>
