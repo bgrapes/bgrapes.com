@@ -21,13 +21,8 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <a href="#contact" className="nav-link">
+                <a href="mailto:brian.grapes@gmail.com" className="nav-link">
                   Contact
-                </a>
-              </li>
-              <li>
-                <a href="Resume_BrianGrapes.pdf" className="nav-link">
-                  Resume
                 </a>
               </li>
               <li>

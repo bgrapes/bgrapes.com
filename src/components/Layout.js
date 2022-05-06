@@ -11,7 +11,6 @@ const Layout = () => {
       <Header />
       <Hero />
       <Projects />
-      <Contact />
       <Footer />
     </>
   )

@@ -17,8 +17,8 @@ const Hero = () => {
               conversions. I love CSS and bringing beautiful designs to life.
             </Intro>
             <Cta>
-              <a href="Resume_BrianGrapes.pdf">
-                <Button className="no-margin-bottom">Download Resume</Button>
+              <a href="#projects">
+                <Button className="no-margin-bottom">View Work</Button>
               </a>
             </Cta>
           </div>
